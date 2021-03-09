@@ -8,6 +8,7 @@ I've put my route, and notes on Github as I'm a programmer, and GitHub is a fami
 
 Still very much in the process of writing all the details down
 
+```
 Checkpoint: Start
   Room: Cell
     Item: Icicle
@@ -39,6 +40,7 @@ Checkpoint: Bunker unlock
 Checkpoint: Punched Card
   Valve room
 Checkpoint: Radio signals
+```
 
 ## Optimization notes
 
