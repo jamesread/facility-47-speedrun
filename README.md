@@ -36,6 +36,8 @@ Checkpoint: Bunker unlock
     Door code: 123640
     Computer code: 112267
   TV Tape
+  VIAL TIME
+    Water winch: RRR URU RUU LLD LLL UUU
   Lab
     Vial Sequence: Yellow Blue Purple Yellow Red
 Checkpoint: Punched Card
