@@ -1,0 +1,63 @@
+#!/usr/bin/env -S dot -T jpg 
+
+digraph {
+	label = "Map Graph"
+
+	edge [dir="both"]
+	
+	// Items
+	node[shape="diamond", color = red] 
+
+	// States
+	node[shape="ellipse", color = green] 
+
+	// Rooms
+	node[shape="rect", color = blue] key_Rooms
+
+	// Legend
+	subgraph cluster_01 {
+		label = "Legend"
+
+		key_Rooms [label = "Rooms"]
+	}
+
+	// Map
+	Cell [style = "bold"] 
+	Cell -> IceDoor
+
+	IceDoor
+	IceGenerator
+	IceTunnel
+
+	IceTunnel -> KitchenCoridor 
+
+	IceDoor -> IceTunnel
+	IceDoor -> IceGenerator
+
+	KitchenCoridor -> MixingLabOuter -> MixingLabInner
+	KitchenCoridor -> Lounge -> Kitchen
+	KitchenCoridor -> SteamCoridor -> StairsCoridor
+	KitchenCoridor -> Vent -> Beds
+	StairsCoridor -> GarrageToiletsCorridor
+	StairsCoridor -> Valves
+	GarrageToiletsCorridor -> Toilets 
+	GarrageToiletsCorridor -> Garrage -> OutsideRoutes
+	OutsideRoutes -> OnionDoor -> Greenhouse
+	OutsideRoutes -> Viewpoint
+	Viewpoint -> CaveEntrance -> Cave -> CaveTunnel -> CaveDrop -> CaveLake -> CaveWale
+	Viewpoint -> CrashTruck -> Tent -> Outpost -> OutpostBase -> OutpostBaloon
+	Tent -> TentInside
+	OutsideRoutes -> BuildingSide -> BuildingEntrances -> SnowStairs
+	BuildingEntrances -> BigLabReception
+	BigLabReception -> WaterHoist
+	BigLabReception -> Survey
+	BigLabReception -> VialLab
+	SnowStairs -> Bunker -> BunkerTanks 
+	Bunker -> BunkerStorage
+	Bunker -> BunkerWaterViewport
+	BuildingSide -> BuildingHole -> ToolboxRoom
+
+	BuildingEntrances -> RadioTowerOutside -> RadioTower
+	RadioTowerOutside -> RadioTowerHut
+	RadioTowerHut [style = "bold"]
+}
