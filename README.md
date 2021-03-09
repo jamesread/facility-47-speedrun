@@ -30,6 +30,7 @@ Checkpoint: Crane lift
   Toolbox key
   Snow stairs
 Checkpoint: Bunker unlock
+  Floating case: 2513
   Card writer
   Roof room
     Door code: 123640
