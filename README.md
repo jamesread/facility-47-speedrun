@@ -14,26 +14,22 @@ Still very much in the process of writing all the details down
 
 ```
 Checkpoint: Start
-  Room: Cell
-    Item: Icicle
-    Item: Cell key
-    Action: Unlock
-  Hot water + Fuse
+  Hot water
   Lab code: 061437
-Checkpoint: Lab unlocked
+Checkpoint: Mixing lab unlocked
   Make acid
   Mop server room
   Code: 20 12 14
   Modem
   Get cogs
-Checkpoint: Crane lift
+Checkpoint: Crane lifted
   Onion room
   Car case
   Shovel
   Ladder
   Toolbox key
   Snow stairs
-Checkpoint: Bunker unlock
+Checkpoint: Bunker unlocked
   Floating case: 2513
   Card writer
   Roof room
@@ -42,11 +38,10 @@ Checkpoint: Bunker unlock
   TV Tape
   VIAL TIME
     Water winch: RRR URU RUU LLD LLL UUU
-  Lab
-    Vial Sequence: Yellow Blue Purple Yellow Red
+  Lab vials: Yellow Blue Purple Yellow Red
 Checkpoint: Punched Card
   Valve room
-Checkpoint: Radio signals
+Finish: Respond on Radio
 ```
 
 ## Speedrun category
