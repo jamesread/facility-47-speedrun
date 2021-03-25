@@ -4,49 +4,9 @@ I picked up this game for a couple of £ on Steam, really enjoyed it, and was in
 
 I've put my route, and notes on Github as I'm a programmer, and GitHub is a familar platform I use for collaboation, keen to share what I've found and put up my first speedrun video in the next few days!
 
-## Videos
+## Now on speedrun.com! :-) 
 
-[19m 18s] https://youtu.be/CYx6lxRjb_k
-
-## Route (high level)
-
-Still very much in the process of writing all the details down
-
-```
-Checkpoint: Start
-  Hot water
-  Lab code: 061437
-Checkpoint: Mixing lab unlocked
-  Make acid
-  Mop server room
-  Code: 20 12 14
-  Modem
-  Get cogs
-Checkpoint: Crane lifted
-  Onion room
-  Car case
-  Shovel
-  Ladder
-  Toolbox key
-  Snow stairs
-Checkpoint: Bunker unlocked
-  Floating case: 2513
-  Card writer
-  Roof room
-    Door code: 123640
-    Computer code: 112267
-  TV Tape
-  VIAL TIME
-    Water winch: RRR URU RUU LLD LLL UUU
-  Lab vials: Yellow Blue Purple Yellow Red
-Checkpoint: Punched Card
-  Valve room
-Finish: Respond on Radio
-```
-
-## Speedrun category
-
-I'm not entirely sure how this is done in the community, but I started timing from clicking "Start Game" and stopped timing when I clicked one of the radio buttons - so I'm calling this a "Respond Radio" category, which might be also called "Any %". Several in game items skipped - and the game ends when you click the radio, so, that's why I guess.
+https://www.speedrun.com/facility_47
 
 ## Optimization notes
 
